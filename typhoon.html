@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content ="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("fast");
+  });
+});
+</script>
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Arial", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+<title>Mitigating the Impacts of Typhoons</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+<div class="w3-top">
+  <div class="w3-row w3-large w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#impacts" class="w3-button w3-block">Impacts</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#mitigate" class="w3-button w3-block">Mitigate</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">About Us</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<h1> Welcome to the Typhoon Information Website</h1>
+<h1>｀、ヽ｀ヽ｀、｀、｀☂ヽ｀、｀、｀ヽ｀、ヽ</h1>
+<p> <b>Typhoons</b> are large storm systems characterized by circular or spiral systems of violent winds, typically hundreds of kilometers or miles in diameter. They form over warm ocean waters and are fueled by the evaporation of water vapor, which rises and condenses into clouds. The winds in a typhoon spiral in a counter-clockwise direction in the northern hemisphere and clockwise in the southern hemisphere due to the Coriolis force. Typhoons are measured on the Saffir-Simpson scale, with Category 1 being the lowest and Category 5 being the most powerful.</p>
+<img style="width:100%; margin-top:20px;height:450px;" src="typhoon4.gif">
+<div id="typhoon-info">
+<h2>Typhoon Glenda (2014)</h2>
+<ul id="typhoon-list">
+  <p> <img src="typhoonpic1.jpg" alt="typhoon1" style="float:right;width:450px;height:490px;">
+    One example of a typhoon is <b>Typhoon Rammasun</b>, also known as Typhoon Glenda in the Philippines. It strucked the Philippines in <b>July 2014</b> as a <b>Category 3</b> storm, affecting regions across the country with torrential rain and strong winds. </p>
+<p>It made landfall in <b>Rapu-Rapu, Albay</b>, leading to widespread destruction, power outages, and evacuation efforts to safeguard residents from flash floods and landslides.</p>
+<li>Typhoon International Name: <span id="typhoon-name">Typhoon Rammasun</span><li>
+<li>Category: <span id="typhoon-category">Category 3</span></li>
+<li><a id="impacts">Wind Speed: </a><span id="typhoon-wind-speed">120 mph</span></li>
+</ul>
+<p><a href="https://www.rappler.com/nation/weather/63393-20140715-glenda-pm-update/" target="_blank">image source</a></p>
+<h2>Impacts of Typhoons</h2>
+<p> The impacts of typhoons are severe and far-reaching, causing significant damage to infrastructure, displacing populations, and resulting in loss of life. The Philippines, for example, is one of the most typhoon-impacted countries globally, with about 20 tropical cyclones traversing the country's area of responsibility each year.</p>
+<ul>
+  <li style= "margin-bottom:20px;">Structural Damage: Typhoons can cause direct damage to buildings, infrastructure, and other structures through high winds, storm surges, and flooding.</li>
+  <li style= "margin-bottom:20px;">Vegetation Damage: Strong winds and flooding from typhoons can damage or destroy tress, crops, and other vegetation. Branches can be snapped, leaves and fruites damaged, and plants uprooted.</li>
+  <li style= "margin-bottom:20px;">Impacts on Watercraft: Typhoons stir up turbulent ocean conditions, posing risks to fishing boats, cruise ships, and offshore operations like oil rigs.</li>
+  <li style= "margin-bottom:20px;">Threats to Life and Livelihood: Typhoons can directly kill or injure people through collapsing structures or flying debris. They can also indirectly threaten lives by destroying food, medical, and other critical supplies, as well as disabling infrastructure.</li>
+</ul>
+<p><a id="mitigate">This intensification of storms and cyclones, along with their increasing frequency, poses a pressing need for adaptation, especially in developing countries and areas more vulnerable to extreme events.</a></p>
+<h2>Mitigating the Impacts of Typhoons</h2>
+<p>To mitigate the impacts of typhoons, it is very crucial to prepare, not only for your family but the whole communiy, for the disaster beforehand. Below are some of the things that you can do to mitigate the impacts of typhoons.</p>
+<table>
+   <tr>
+    <td style="background-color:#dddddd"><b>Emergency Preparedness</b>: Having plans that need to be put in place before a typhoon occurs. It could be having emergency kits that contain food, water, and other medications, knowing the right evacuation channel, and ensuring the homes are strong enough to survive the strong winds and floods.</td>
+  </tr>
+  </table>
+  <img style="width:100%; margin-top:0px;height:400px;" src="mitigate.jpg">
+  <table>
+   <tr>
+    <td style="background-color:#dddddd"><b>Public Awareness Campaigns</b>: These campaigns should aim to educate communities about the hazards they face, the necessary preparations before an event, and the appropriate actions during and after a typhoon.
+</td>
+  </tr>
+  </table>
+    <img style="width:100%; margin-top:0px;height:400px;" src="mitigate2.jpg">
+    <table>
+   <tr>
+    <td style="background-color:#dddddd"><b>Flood Management</b>: Measures include keeping homes out of floodplains, building earthquake-resistant structures, and enforcing building regulations to protect against typhoons. </td>
+  </tr>
+  </table>
+    <img style="width:100%; margin-top:0px;height:400px;" src="mitigate3.jpg">
+    <table>
+   <tr>
+    <td style="background-color:#dddddd"><b>Early Warning Systems</b>: Typhoon danger is reduced with the use of early warning systems, which also help us be ready for emergencies sooner. Timely communication and evacuation plans are very crucial.
+</td>
+  </tr>
+  </table>
+    <img style="width:100%; margin-top:0px;height:400px;" src="mitigate4.jpg">
+    <table>
+   <tr>
+    <td style="background-color:#dddddd"><b>Engage in Community-based initiatives that promote preparedness.</b>: We can engage in community-based initiatives that promote preparedness, such as building emergency kits, making family emergency plans, and securing our homes and surroundings.</td>
+  </tr>
+  </table>
+    <img style="width:100%; margin-top:0px;height:400px;" src="mitigate5.jpg">
+<p>These strategies collectively aim to reduce the impact of typhoons and enhance overall resilience to extreme weather events.</p>
+
+<h1 style="text-align:center; margin-bottom:0px;background-color:black; padding: 15px 35px 15px 35px; color:white;">WHAT CAN WE DO?</h1>
+<p style="text-align:center; margin-top:0px; margin-bottom:0px; background-color:#a9a9a9; padding: 15px 35px 15px 35px; color:white;">Typhoons are powerful tropical cyclones that can bring significant damage and disruption to communities. It is essential to be prepared and take necessary precautions to ensure safety before, during, and after a typhoon.</p>
+<table id="customers">
+  <tr>
+    <th style="font-size:25px;margin-top:0px;">Before</th>
+  </tr>
+  <tr>
+    <td style="font-size:16px;">> <b>Create an Emergency Bag</b>: Pack extra clothes, medicine, food, important documents, and house keys in a waterproof bag.<br>> <b>Stock up on Supplies</b>: Ensure you have enough food, drinking water, and supplies for at least three days for everyone in the household, including pets.<br>> <b>Secure Your Home</b>: Close and secure windows and doors, bring in outdoor furniture, and unplug appliances to prevent fire hazards.<br>> <b>Have a Safety Plan for Family and Pets</b>: Create a communication plan with your family and have a list of emergency contact numbers and make sure pets are safe and accounted for.</td>
+  </tr>
+  <tr>
+    <th style="font-size:25px;">During</th>
+  </tr>
+  <tr>
+    <td style="font-size:16px;">> <b>Stay inside and seek shelter</b>: Stay at home or in a safe place during the typhoon. Avoid areas prone to flooding or landslides, and watch out for flying debris and objects.<br>> <b>Wear warm, dry clothing</b>: Keep yourself and your family protected from the cold weather by wearing warm clothes like t-shirts, sweaters, and pants.<br>> <b>Monitor weather updates</b>: Continue following the latest weather reports on TV, radio, and any advisories for your area.<br>> <b>Advoid floodwaters</b>: Do not wade through flood waters to avoid risks of electrocution, leptospirosis, and other waterborne diseases.<br>><b>Ensure everyone's safety</b>: Make sure all family members, including pets, are in a safe place. Never leave burning candles or gas lamps unattended</td>
+  </tr>
+  <tr>
+    <th style="font-size:25px;">After</th>
+  </tr>
+  <tr>
+    <td style="font-size:16px;">> <b>Listen to local authorities</b>: Follow instructions from local authorities, such as evacuation orders or shelter-in-place advisories.<br>> <b>Inspect the home for damage</b>: Assess the condition of your home, including the roof, walls, and foundation, to identify potential hazards.<br>> <b>Assess electrical systems</b>: Check your home's electrical systems, including appliances and wiring, to ensure they are safe to use.<br>> <b>Maintain hygiene</b>: Ensure access to clean water, sanitation, and hygiene facilities to prevent the spread of disease.<br>><b>Contact emergency services</b>: If you need assistance, contact emergency services, such as the National Emergency Hotline (911) or the Philippine National Police (117).</td>
+  </table>
+  <p style="text-align:center; margin-top:0px; background-color:#a9a9a9; padding: 15px 35px 15px 35px; color:white;">Remember, safety should always be your top priority after a typhoon. Stay informed, follow instructions from local authorities, and take necessary precautions to ensure your well-being and the well-being of those around you.</p>
+<div id="flip" style="font-size:20px; color:white;">ABOUT US</div>
+<div id="panel" style="font-size:20px; color:white;">✦•······················•✦•······················•✦✦•······················•✦<br>We are <b>GROUP 8</b> of <b>B02 - Service - 8 - 1</b> and this is our website about typhoons and ways to mitigate the impacts of typhoons. We hope our website can be informative to people and help them during terrible calamities.<br><br><b>THANK YOU!</b><br>>✦•······················•✦•······················•✦✦•······················•✦</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script,js"></script>
+</body>
+</html>
